@@ -86,3 +86,24 @@ body {
     width: 20rem;
 }
 /* footer */
+footer {
+    background-color: #2B5FB0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__nav li {
+    display: inline-flex;
+    list-style: none;
+    padding: 2.5rem;
+}
+.footer__nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+.footer__title {
+    padding-bottom: 3rem;
+    font-size: 1.8rem;
+}
