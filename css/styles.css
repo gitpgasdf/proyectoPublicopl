@@ -43,4 +43,46 @@ header img {
     padding: 0 2rem;
 }
 /* main */
+body {
+    background-image: linear-gradient(rgb(194, 186, 186),white);
+}
+.lista-pelas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5rem;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25rem;
+    height: 40rem;
+    border: 0.1rem solid grey;
+    border-radius: 5rem;
+    margin: 3rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem grey;
+}
+.container figure {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+}
+.container p {
+    padding: 1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(65, 57, 57);
+}
+.pulp-fiction img {
+    width: 20rem;
+    height: 10rem;
+}
+.fight-club img {
+    width: 20rem;
+}
+.it-2017 img {
+    width: 20rem;
+}
 /* footer */
