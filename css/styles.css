@@ -7,5 +7,25 @@ html {
     font-size: 62.5%;
 }
 /* header */
+#cabecera {
+    background-color: rgb(55, 55, 59);
+    box-shadow: 0rem 0.2rem 2rem 0rem rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5rem;
+    font-size: 2.2rem;
+}
+#cabecera #tagline {
+    padding: 0 0 0 0.5rem;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+#container {
+    width: 70%;
+    padding: 0.5rem;
+    text-align: left;
+    margin: 0 auto;
+}
 /* main */
 /* footer */
