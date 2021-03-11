@@ -1,3 +1,6 @@
+:root {
+    --primary-color: #FFC733;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,7 +13,7 @@ html {
 /* header */
 header {
     background-color: black;
-    color: #FFC733;
+    color: var(--primary-color);
     display: flex;
     justify-content: space-between;
     padding: 1rem 3rem;
@@ -25,7 +28,7 @@ header {
 }
 header img {
     width: 10rem;
-    height: 5rem:
+    height: 5rem;
 }
 .header__nav {
     display: flex;
@@ -39,7 +42,7 @@ header img {
 .header__nav a {
     text-decoration: none;
     font-size: 2rem;
-    color: #FFC733;
+    color: var(--primary-color);
     padding: 0 2rem;
 }
 /* main */
