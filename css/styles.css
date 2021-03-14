@@ -1,5 +1,9 @@
 :root {
-    --primary-color: #FFC733;
+    --primary-color: #FFEB4D;
+    --secondary-color: #121317;
+    --light-color: #BEC7C7;
+    --dark-blue-color: #06111C;
+    --contrast-color: #BB2020;
 }
 * {
     box-sizing: border-box;
@@ -12,7 +16,7 @@ html {
 }
 /* header */
 header {
-    background-color: black;
+    background-color: var(--secondary-color);
     color: var(--primary-color);
     display: flex;
     justify-content: space-between;
@@ -47,7 +51,7 @@ header img {
 }
 /* main */
 body {
-    background-image: linear-gradient(rgb(194, 186, 186),white);
+    background-color: var(--primary-color);
 }
 .lista-pelas {
     display: flex;
@@ -57,16 +61,17 @@ body {
     padding: 5rem;
 }
 .container {
+    background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 25rem;
     height: 40rem;
-    border: 0.1rem solid grey;
+    border: 0.1rem solid var(--secondary-color);
     border-radius: 5rem;
     margin: 3rem;
-    box-shadow: 0.5rem 0.5rem 0.5rem grey;
+    box-shadow: 0.5rem 0.5rem 0.5rem var(--contrast-color);
 }
 .container figure {
     padding-top: 1rem;
@@ -76,7 +81,7 @@ body {
     padding: 1rem;
     font-size: 1.8rem;
     font-weight: bold;
-    color: rgb(65, 57, 57);
+    color: var(--light-color);
 }
 .pulp-fiction img {
     width: 20rem;
@@ -102,8 +107,7 @@ body {
 }
 /* footer */
 footer {
-    background-color: #2B5FB0;
-    color: white;
+    background-color: var(--secondary-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,10 +119,11 @@ footer {
 }
 .footer__nav a {
     text-decoration: none;
-    color: white;
+    color: var(--primary-color);
     font-size: 2rem;
 }
 .footer__title {
+    color: var(--primary-color);
     padding-bottom: 3rem;
     font-size: 1.8rem;
 }
